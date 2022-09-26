@@ -55,7 +55,7 @@ export default function Home() {
 
           <QnaPill question={`They're not human`} >
             If an alien race where to visit us tommorow with
-            the exact same level of intelligence, appearance and ability to feel pain, but they're not human per se.
+            the exact same level of intelligence, appearance and ability to feel pain, but they&apos;re not human per se.
             Would it be okay to turn them into hamburgers?
             
             <br /><br />
@@ -76,8 +76,8 @@ export default function Home() {
           </QnaPill>
 
           <QnaPill question={`Social contract`} >
-            The argument goes like this: 'if animals cannot respect the golden rule 
-            (Treat others as you would like others to treat you). Then <Bold>they do not deserve moral consideration</Bold>'.
+            The argument goes like this: &apos;if animals cannot respect the golden rule 
+            (Treat others as you would like others to treat you). Then <Bold>they do not deserve moral consideration</Bold>&apos;.
             
             <br /><br />
             The problem with this is that you have now accepted the conclusion that <Bold>there is no act against an animal that is wrong.</Bold>
