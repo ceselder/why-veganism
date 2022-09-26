@@ -22,7 +22,7 @@ export default function Home() {
         <div className='px-8 py-4 w-full flex flex-row justify-between items-center'>
           <div onClick={{/**/ }} className='flex flex-row items-center'>
             <FontAwesomeIcon className='w-16' icon={faSeedling} />
-            <h1 className='text-2xl  mx-2 font-extrabold'>Why-Veganism</h1>
+            <h1 className='text-2xl hidden lg:block mx-2 font-extrabold'>Why-Veganism</h1>
           </div>
           <div className='flex flex-row gap-12 '>
             <p className='hover:opacity-70 hover:cursor-pointer'>
@@ -37,9 +37,9 @@ export default function Home() {
           </div>
         </div>
         <div className='text-center bg-[#091153] flex flex-col py-8 min-h-screen'>
-          <div className='mx-64 max-w-[50rem] self-center text-xl'>
+          <div className='mx-16 lg:mx-64 max-w-[50rem] self-center text-xl'>
             Alright, lets start off with a pretty fundamental question.
-            <h1 className='text-4xl mt-8'>What is the <span className='font-bold'>morally relevant </span>
+            <h1 className='text-2xl lg:text-4xl mt-8'>What is the <span className='font-bold'>morally relevant </span>
               difference between humans and animals
               that makes it morally okay to turn <span className='font-bold'>animals</span> into hamburgers but <span className='font-bold'>not humans</span>?
             </h1>
